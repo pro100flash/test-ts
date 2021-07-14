@@ -1,5 +1,5 @@
 import React from "react";
-import { ITask } from "../Interfaces";
+import { ITask } from "../pages/Interfaces";
 
 interface Props {
   task: ITask;

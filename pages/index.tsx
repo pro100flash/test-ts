@@ -1,5 +1,5 @@
 import React, { useState, ChangeEvent } from "react";
-import TodoTask from "./Components/TodoTask";
+import TodoTask from "../Components/TodoTask";
 import { ITask } from "./Interfaces";
 
 export default function Home() {
