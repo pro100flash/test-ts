@@ -1,6 +1,6 @@
 import React from "react";
 
-export default interface ITask {
+export interface ITask {
     taskName: string;
     deadline: number;
 }
