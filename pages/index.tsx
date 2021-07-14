@@ -1,6 +1,6 @@
 import React, { useState, ChangeEvent } from "react";
-import TodoTask from "../Components/TodoTask";
-import { ITask } from "./Interfaces";
+import TodoTask from "./Components/TodoTask";
+import { ITask } from "./Components/Interfaces";
 
 export default function Home() {
   const [task, setTask] = useState<string>("");
